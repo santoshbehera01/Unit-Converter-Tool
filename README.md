@@ -1,79 +1,227 @@
 # ⚡ Unit Converter Tool (UnitFlow)
 
-A modern, dashboard-style desktop application for fast and accurate unit
-conversions. Built with **Python 3** and **Tkinter (ttk)** using clean
-object-oriented code.
-
-![Status](https://img.shields.io/badge/status-stable-3B82F6) ![Python](https://img.shields.io/badge/python-3.9%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+A modern desktop-based Unit Converter application developed using **Python 3** and **Tkinter**. The application provides fast and accurate unit conversions across multiple categories while maintaining conversion history and export functionality.
 
 ---
 
-## ✨ Features
+## Intern Details
 
-- **6 Conversion Categories** — Length, Weight, Temperature, Time, Area, Speed
-- **Modern Dashboard UI** — left sidebar navigation, header, summary cards, status bar
-- **Currency-style Result Card** — large formatted result with one-click copy
-- **Conversion History** — scrollable, sortable table of past conversions
-- **Statistics Dashboard** — totals, most used category, category breakdown bars
-- **CSV Export** — export your full history with one click
-- **Robust Validation** — empty input, numeric-only, friendly error dialogs
+| Field | Details |
+|---------|---------|
+| Project Name | Unit Converter Tool (UnitFlow) |
+| Intern Name | Santosh Kumar Behera |
+| Intern ID | CITS2854 |
+| Domain | Python Programming |
+| Duration | 6 Weeks |
+| Organization | CODTECH IT Solutions Pvt. Ltd. |
+| Internship Period | 06 June 2026 – 18 July 2026 |
 
-## 📦 Installation
+---
 
-```bash
-# 1. Clone or download this repository
-cd Unit-Converter-Tool
+## Project Overview
 
-# 2. (Linux only) Install Tkinter if it's not bundled
-sudo apt install python3-tk
+The Unit Converter Tool is designed to perform quick and accurate unit conversions through a user-friendly desktop interface. The application supports multiple conversion categories and maintains conversion history for future reference.
 
-# 3. Run the app
-python main.py
-```
+### Project Objectives
 
-No third-party dependencies required.
+- Develop a professional desktop application using Python.
+- Implement multiple unit conversion categories.
+- Store conversion history using JSON.
+- Export conversion records to CSV.
+- Demonstrate GUI development using Tkinter.
+- Apply software engineering best practices.
 
-## 🚀 Usage
+---
 
-1. Launch the app — the **Dashboard** opens by default.
-2. Click any **category card** or the **Convert** tab in the sidebar.
-3. Pick a conversion type, type a number, press **Convert** (or Enter).
-4. Copy the result, or open the **History** tab to review/export past work.
+## Features
 
-## 📁 Folder Structure
+### Conversion Categories
 
-```
+- Length Conversion
+- Weight Conversion
+- Temperature Conversion
+- Time Conversion
+- Area Conversion
+- Speed Conversion
+
+### Conversion Tools
+
+- Instant Unit Conversion
+- Swap Units
+- Copy Result
+- Clear Input
+- Accurate Calculations
+
+### Data Management
+
+- Conversion History
+- JSON Storage
+- CSV Export
+- Automatic Data Saving
+
+### User Interface
+
+- Modern Desktop Design
+- Clean Navigation
+- Responsive Layout
+- User-Friendly Controls
+- Input Validation
+
+---
+
+## Technologies Used
+
+| Category | Technology |
+|-----------|------------|
+| Language | Python 3 |
+| GUI Framework | Tkinter |
+| Data Storage | JSON |
+| Export Format | CSV |
+| Libraries | tkinter, json, csv, datetime, os |
+| IDE | Visual Studio Code |
+| Version Control | Git & GitHub |
+
+---
+
+## Folder Structure
+
+```text
 Unit-Converter-Tool/
-├── main.py                 # Application entry point
-├── requirements.txt
-├── README.md
+│
 ├── .gitignore
-├── assets/icons/           # Optional icon assets
+├── main.py
+├── README.md
+├── requirements.txt
+│
+├── assets/
+│   └── icons/
+│       └── .gitkeep
+│
 ├── data/
-│   ├── history.json        # Persistent history store
-│   └── history.csv         # Exported CSV (generated)
+│   ├── history.json
+│   └── history.csv
+│
 ├── documentation/
 │   ├── PROJECT_DOC.md
 │   └── USER_MANUAL.md
+│
 └── screenshots/
+    ├── area.png
+    ├── length.png
+    ├── speed.png
+    ├── temperature.png
+    ├── time.png
+    └── weight.png
 ```
 
-## 🛠 Technologies
+---
 
-Python 3 • Tkinter • ttk • JSON • CSV • Object-Oriented Programming
+## Installation
 
-## 🖼 Screenshots
+### Clone Repository
 
-Place app screenshots in the `screenshots/` folder.
+```bash
+git clone https://github.com/santoshbehera01/Unit-Converter-Tool.git
+cd Unit-Converter-Tool
+```
 
-## 🔮 Future Enhancements
+### Run Application
 
-- Dark mode toggle
-- Custom unit favorites
-- Chart visualizations (matplotlib)
-- Multi-language support
-- Drag-and-drop CSV import
+```bash
+python main.py
+```
 
-## 📝 License
+---
 
-MIT
+## Usage
+
+1. Open the application.
+2. Select a conversion category.
+3. Enter the value to convert.
+4. Select source and target units.
+5. Click Convert.
+6. View the result instantly.
+7. Save, review, or export conversion history.
+
+---
+
+## Screenshots
+
+### Length Conversion
+
+![Length](screenshots/length.png)
+
+### Weight Conversion
+
+![Weight](screenshots/weight.png)
+
+### Temperature Conversion
+
+![Temperature](screenshots/temperature.png)
+
+### Time Conversion
+
+![Time](screenshots/time.png)
+
+### Area Conversion
+
+![Area](screenshots/area.png)
+
+### Speed Conversion
+
+![Speed](screenshots/speed.png)
+
+---
+
+## Documentation
+
+Detailed documentation is available in:
+
+```text
+documentation/
+├── PROJECT_DOC.md
+└── USER_MANUAL.md
+```
+
+---
+
+## Future Enhancements
+
+- Dark Mode
+- Additional Conversion Categories
+- Advanced Statistics
+- Unit Favorites
+- Multi-Language Support
+- Enhanced UI Themes
+
+---
+
+## Learning Outcomes
+
+This project helped in understanding:
+
+- Python Programming
+- GUI Development with Tkinter
+- JSON File Handling
+- CSV Export Operations
+- Input Validation
+- Software Documentation
+- Git & GitHub Workflow
+
+---
+
+## Author
+
+**Santosh Kumar Behera**
+
+Intern ID: CITS2854
+
+Python Programming Intern
+
+CODTECH IT Solutions Pvt. Ltd.
+
+---
+
+## License
+
+This project was developed for educational and internship purposes under the CODTECH IT Solutions Pvt. Ltd. Python Programming Internship Program.
