@@ -1,55 +1,147 @@
 # Project Documentation — Unit Converter Tool
 
-## Overview
-A professional desktop unit converter built with Python + Tkinter following
-OOP principles and PEP 8 style. Designed as a modern dashboard rather than a
-typical form-based utility.
+## 1. Project Overview
 
-## Architecture
+The **Unit Converter Tool (UnitFlow)** is a desktop-based application developed using **Python** and **Tkinter**. The application provides fast, accurate, and user-friendly unit conversions across multiple categories through a modern graphical interface.
 
-```
+The project demonstrates practical implementation of GUI development, file handling, data persistence, object-oriented programming, and software design principles.
+
+---
+
+## 2. Objectives
+
+- Develop a professional desktop application using Python.
+- Provide accurate unit conversion functionality.
+- Support multiple conversion categories.
+- Maintain conversion history for future reference.
+- Export conversion records to CSV format.
+- Apply software engineering best practices.
+
+---
+
+## 3. System Architecture
+
+```text
 main.py
-├── Constants & Theme         # color palette, fonts
-├── Conversion Logic          # CATEGORIES + convert_value()
-├── HistoryManager            # JSON persistence + CSV export
-├── UI Widgets                # HoverButton, SidebarButton, make_card
-└── UnitConverterApp          # main controller (pages, navigation, status)
+├── Conversion Engine
+├── History Management
+├── User Interface Components
+├── Dashboard & Statistics
+└── Application Controller
 ```
 
-### Key Classes
-| Class | Responsibility |
-|-------|----------------|
-| `HistoryManager` | Load/save/clear history, compute stats, CSV export |
-| `SidebarButton`  | Custom sidebar nav row with hover + active states |
-| `HoverButton`    | tk.Button with hover color transitions |
-| `UnitConverterApp` | Application controller — pages and event handlers |
+### Core Components
 
-### Pages
-- **Dashboard** — KPI cards + category quick-pick grid
-- **Convert** — input card + currency-style result card
-- **History** — scrollable Treeview with Export & Clear
-- **Statistics** — KPIs + per-category breakdown bars
-- **About** — app info + technologies
+| Component | Description |
+|-----------|-------------|
+| Conversion Engine | Handles all unit conversion calculations |
+| History Manager | Stores and retrieves conversion records |
+| Dashboard Module | Displays application statistics |
+| Statistics Module | Provides category-wise analysis |
+| Export Module | Exports history data to CSV |
+| User Interface | Manages application layout and interactions |
 
-## Data Storage
-- `data/history.json` — list of `{timestamp, category, conversion, input, output}`
-- `data/history.csv` — generated on export
+---
 
-## Validation Strategy
-- Empty input → warning dialog
-- Non-numeric input → error dialog
-- Missing conversion type → warning dialog
-- All conversion math wrapped in try/except with friendly error message
+## 4. Key Features
 
-## Design System
-- Color palette: deep navy sidebar (`#1E2A44`), accent blue (`#3B82F6`),
-  light workspace (`#F4F6FB`), white cards
-- Typography: Segoe UI throughout, hierarchical sizes
-- Components: cards with 1px borders, hover effects, status bar, scrollbars
+### Conversion Categories
 
-## Testing Checklist
-- All 6 categories convert correctly
-- Negative and decimal inputs handled
-- History persists across restarts
-- CSV export produces valid file
-- Clear history requires confirmation
+- Length Conversion
+- Weight Conversion
+- Temperature Conversion
+- Time Conversion
+- Area Conversion
+- Speed Conversion
+
+### Application Features
+
+- Modern Desktop Interface
+- Real-Time Conversion Results
+- Conversion History Tracking
+- Statistics Dashboard
+- CSV Export Functionality
+- JSON Data Storage
+- Input Validation
+- Error Handling
+
+---
+
+## 5. Data Storage
+
+The application stores conversion records locally.
+
+### JSON Storage
+
+```text
+data/history.json
+```
+
+Stores all conversion history records.
+
+### CSV Export
+
+```text
+data/history.csv
+```
+
+Generated when the user exports conversion history.
+
+---
+
+## 6. User Interface Design
+
+The application follows a dashboard-based design consisting of:
+
+- Sidebar Navigation
+- Header Section
+- Conversion Workspace
+- Dashboard Cards
+- History Table
+- Statistics Panel
+- Status Bar
+
+The interface is designed to provide a clean, responsive, and user-friendly experience.
+
+---
+
+## 7. Validation and Error Handling
+
+The application validates:
+
+- Empty input fields
+- Invalid numeric values
+- Unsupported conversions
+- File handling errors
+
+Appropriate warning and error messages are displayed to guide users.
+
+---
+
+## 8. Technologies Used
+
+| Category | Technology |
+|-----------|------------|
+| Programming Language | Python 3 |
+| GUI Framework | Tkinter |
+| Data Storage | JSON |
+| Data Export | CSV |
+| Development Environment | Visual Studio Code |
+| Version Control | Git & GitHub |
+
+---
+
+## 9. Future Enhancements
+
+- Currency Conversion
+- Scientific Unit Conversion
+- Dark Mode Support
+- Advanced Analytics
+- Custom Themes
+- Multi-Language Support
+
+---
+
+## 10. Conclusion
+
+The Unit Converter Tool successfully demonstrates the implementation of Python GUI development, unit conversion logic, data management, and modern user interface design. The project provides a practical desktop utility while showcasing software development skills and best practices.

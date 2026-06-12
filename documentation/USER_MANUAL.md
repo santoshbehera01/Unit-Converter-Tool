@@ -1,47 +1,137 @@
 # User Manual — Unit Converter Tool
 
-## 1. Launching the App
-Run `python main.py` from the project folder. The Dashboard opens by default.
+## 1. Introduction
 
-## 2. The Interface
-- **Left sidebar** — navigate between Dashboard, Convert, History, Statistics, About
-- **Header** — shows current page title and date
-- **Status bar** (bottom) — shows the last action performed
+The **Unit Converter Tool (UnitFlow)** is a desktop application developed using Python and Tkinter. It allows users to perform fast and accurate unit conversions across multiple categories through a simple and user-friendly interface.
 
-## 3. Performing a Conversion
-1. Click **Convert** in the sidebar (or any category card on the Dashboard).
-2. Choose a **Category** (Length, Weight, Temperature, Time, Area, Speed).
-3. Choose a **Conversion** type (e.g. *Kilometer → Meter*).
-4. Type a numeric **Value** (decimals and negatives allowed).
-5. Click **Convert** or press **Enter**.
-6. The result appears in a large, formatted card on the right.
+---
 
-### Copy a Result
-Click **📋 Copy Result** to copy to your clipboard.
+## 2. Starting the Application
 
-## 4. Viewing History
-Click **History** in the sidebar to see every past conversion in a scrollable
-table — newest first.
+### Step 1
 
-## 5. Exporting History
-On the History page, click **⬇ Export CSV**, choose a location, and save.
+Open a terminal in the project folder.
 
-## 6. Clearing History
-On the History page, click **🗑 Clear History** and confirm.
+### Step 2
 
-## 7. Statistics
-The Statistics page shows:
-- Total conversions performed
-- Most used category
-- Time of your most recent activity
-- A horizontal bar chart of conversions per category
+Run the following command:
 
-## 8. Troubleshooting
+```bash
+python main.py
+```
+
+### Step 3
+
+The application dashboard will open automatically.
+
+---
+
+## 3. Application Interface
+
+The application consists of the following sections:
+
+### Dashboard
+
+Provides an overview of conversion activity and quick access to conversion categories.
+
+### Convert
+
+Used to perform unit conversions.
+
+### History
+
+Displays previously performed conversions.
+
+### Statistics
+
+Shows conversion usage statistics and category summaries.
+
+### Status Bar
+
+Displays application status and user actions.
+
+---
+
+## 4. Performing a Conversion
+
+1. Open the **Convert** section.
+2. Select a conversion category:
+   - Length
+   - Weight
+   - Temperature
+   - Time
+   - Area
+   - Speed
+3. Choose the required conversion type.
+4. Enter a numeric value.
+5. Click **Convert**.
+6. The converted result will be displayed instantly.
+
+---
+
+## 5. Viewing Conversion History
+
+1. Open the **History** section.
+2. View all previously performed conversions.
+3. Review conversion details and records.
+4. Use available options to manage history data.
+
+---
+
+## 6. Exporting History
+
+1. Navigate to the **History** page.
+2. Click **Export CSV**.
+3. Select a save location.
+4. Save the exported file.
+
+The conversion history will be exported in CSV format.
+
+---
+
+## 7. Statistics Dashboard
+
+The Statistics page provides:
+
+- Total Conversions
+- Most Frequently Used Category
+- Recent Activity Information
+- Category-wise Conversion Summary
+
+These statistics help users analyze conversion usage.
+
+---
+
+## 8. Data Storage
+
+The application stores data locally in:
+
+```text
+data/history.json
+```
+
+Exported files are stored as:
+
+```text
+data/history.csv
+```
+
+Both files are managed automatically by the application.
+
+---
+
+## 9. Troubleshooting
+
 | Problem | Solution |
-|---------|----------|
-| "Please enter a numeric value" | The input field is empty — type a number |
-| "Please enter a valid number" | Input contains letters or symbols |
-| App won't start on Linux | Install Tkinter: `sudo apt install python3-tk` |
+|----------|----------|
+| Application does not start | Ensure Python 3 is installed correctly. |
+| Invalid input error | Enter numeric values only. |
+| Conversion not working | Verify that a valid category and conversion type are selected. |
+| Missing history file | Restart the application. Required files will be created automatically. |
+| Tkinter error on Linux | Install Tkinter using `sudo apt install python3-tk`. |
 
-## 9. Keyboard Shortcuts
-- **Enter** — perform conversion (when typing in the value field)
+---
+
+## 10. Conclusion
+
+The Unit Converter Tool provides a reliable and efficient solution for performing everyday unit conversions. With its intuitive interface, conversion history, and statistics features, the application offers a convenient experience for students, professionals, and general users.
