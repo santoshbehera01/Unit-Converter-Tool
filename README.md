@@ -205,7 +205,7 @@ This project helped in understanding:
 - JSON File Handling
 - CSV Export Operations
 - Input Validation
-- Software Documentation
+
 - Git & GitHub Workflow
 
 ---
