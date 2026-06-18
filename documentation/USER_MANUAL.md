@@ -96,7 +96,7 @@ The Statistics page provides:
 - Total Conversions
 - Most Frequently Used Category
 - Recent Activity Information
-- Category-wise Conversion Summary
+- Category wise Conversion Summary
 
 These statistics help users analyze conversion usage.
 
