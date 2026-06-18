@@ -1,5 +1,5 @@
 """
-Unit Converter Tool — 
+Unit Converter Tool — UnitFlow
 A premium, workspace-style desktop utility for unit conversions.
 
 Author: Unit Converter Tool
