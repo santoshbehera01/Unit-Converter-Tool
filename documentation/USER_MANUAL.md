@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-The **Unit Converter Tool (UnitFlow)** is a desktop application developed using Python and Tkinter. It allows users to perform fast and accurate unit conversions across multiple categories through a simple and user-friendly interface.
+The **Unit Converter Tool (UnitFlow)** is a desktop application developed using Python and Tkinter. It allows users to perform fast and accurate unit conversions across multiple categories through a simple and user friendly interface.
 
 ---
 
