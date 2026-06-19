@@ -10,7 +10,7 @@ The **Unit Converter Tool (UnitFlow)** is a desktop application developed using 
 
 ### Step 1
 
-
+Open a terminal in the project folder.
 
 ### Step 2
 
