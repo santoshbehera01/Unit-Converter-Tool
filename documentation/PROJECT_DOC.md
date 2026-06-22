@@ -37,7 +37,7 @@ main.py
 | Conversion Engine | Handles all unit conversion calculations |
 | History Manager | Stores and retrieves conversion records |
 | Dashboard Module | Displays application statistics |
-| Statistics Module | Provides category-wise analysis |
+| Statistics Module | Provides category wise analysis |
 | Export Module | Exports history data to CSV |
 | User Interface | Manages application layout and interactions |
 
