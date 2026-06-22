@@ -57,7 +57,7 @@ main.py
 ### Application Features
 
 - Modern Desktop Interface
-- Real-Time Conversion Results
+- Real Time Conversion Results
 - Conversion History Tracking
 - Statistics Dashboard
 - CSV Export Functionality
