@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-The **Unit Converter Tool (UnitFlow)** is a desktop-based application developed using **Python** and **Tkinter**. The application provides fast, accurate, and user friendly unit conversions across multiple categories through a modern graphical interface.
+The **Unit Converter Tool (UnitFlow)** is a desktop based application developed using **Python** and **Tkinter**. The application provides fast, accurate, and user friendly unit conversions across multiple categories through a modern graphical interface.
 
 The project demonstrates practical implementation of GUI development, file handling, data persistence, object oriented programming, and software design principles.
 
