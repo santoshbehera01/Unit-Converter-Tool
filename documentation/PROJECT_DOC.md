@@ -91,7 +91,7 @@ Generated when the user exports conversion history.
 
 ## 6. User Interface Design
 
-The application follows a dashboard-based design consisting of:
+The application follows a dashboard based design consisting of:
 
 - Sidebar Navigation
 - Header Section
