@@ -101,7 +101,7 @@ The application follows a dashboard based design consisting of:
 - Statistics Panel
 - Status Bar
 
-The interface is designed to provide a clean, responsive, and user-friendly experience.
+The interface is designed to provide a clean, responsive, and user friendly experience.
 
 ---
 
