@@ -138,7 +138,7 @@ Appropriate warning and error messages are displayed to guide users.
 - Dark Mode Support
 - Advanced Analytics
 - Custom Themes
-- Multi-Language Support
+- Multi Language Support
 
 ---
 
