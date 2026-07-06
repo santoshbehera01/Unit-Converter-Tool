@@ -144,4 +144,4 @@ Appropriate warning and error messages are displayed to guide users.
 
 ## 10. Conclusion
 
-The Unit Converter Tool successfully demonstrates the implementation of Python GUI development, unit conversion logic, data management, and modern user interface design. The project provides a practical desktop utility while showcasing software development skills and best practices..
+The Unit Converter Tool successfully demonstrates the implementation of Python GUI development, unit conversion logic, data management, and modern user interface design. The project provides a practical desktop utility while showcasing software development skills and best practices.
